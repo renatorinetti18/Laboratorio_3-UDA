@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 HTML</title>
+</head>
+
+<body>
+
+    <form action="Ejercicio_5php.php" method="post">
+
+        <h1>REGISTRO DE PERSONAS</h1>
+
+        <p>
+            Nombre: <input type="text" name="nombre" required><br>
+            Apellido: <input type="text" name="apellido" required><br>
+            DNI: <input type="number" name="dni" required><br>
+            Email: <input type="text" name="email" required><br>
+        </p>
+
+        <br>
+
+        <h3>Sexo</h3>
+        <input type="radio" name="sexo" value="hombre" required> Hombre <br>
+        <input type="radio" name="sexo" value="mujer" required> Mujer <br>
+
+        <br>
+
+        <h3>Dirección</h3>
+        <p>
+            Calle: <input type="text" name="calle" required><br>
+            Numero: <input type="number" name="numero" required><br>
+            Torre: <input type="text" name="torre"><br>
+            Piso: <input type="number" name="piso"><br>
+            Departamento: <input type="text" name="depto"><br>
+            País: <input type="text" name="pais" required><br>
+            Provincia: <input type="text" name="provincia" required><br>
+            Localidad: <input type="text" name="localidad" required><br>
+        </p>
+
+        <br>
+
+        <h3>Edad</h3>
+        <p>Edad: <input type="number" name="edad" required></p>
+
+        <br>
+
+        <h3>Estado civil:</h3>
+        <select name="estado_civil" required>
+            <option value="casado">Casado</option>
+            <option value="soltero">Soltero</option>
+        </select>
+
+        <br>
+
+        <h3>Hijos:</h3>
+        <p>Hijos: <input type="number" name="hijos"></p>
+
+        <br>
+
+        <h3>Hobbies:</h3>
+        <input type="checkbox" name="hobbies" value="musica"> Musica <br>
+        <input type="checkbox" name="hobbies" value="cine"> Ver peliculas <br>
+        <input type="checkbox" name="hobbies" value="musica"> Videojuegos <br>
+        <input type="checkbox" name="hobbies" value="deportes"> Deportes <br>
+        <input type="checkbox" name="hobbies" value="leer"> Leer <br>
+
+        <br>
+
+        <p><input type="submit" value="Comprobar"></p>
+
+    </form>
+</body>
+
+</html>
