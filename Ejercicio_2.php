@@ -22,8 +22,9 @@
                     echo "<tr>";
                     
                     for ($multiplicador=1; $multiplicador <=10 ; $multiplicador++) { 
-                        for ($multiplicando=01; $multiplicando <=2 ; $multiplicando++) { 
-                            echo "<td>$multiplicando X $multiplicador";               
+                        for ($multiplicando=01; $multiplicando <=3 ; $multiplicando++) { 
+                            echo "<td>$multiplicando X $multiplicador =";
+                            echo ($multiplicador * $multiplicando);               
                             echo "</td>";
                         }
                         echo "</tr>";
